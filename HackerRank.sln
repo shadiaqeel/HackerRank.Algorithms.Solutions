@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.NonDivisibleSubs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{EF86ED0C-D6F5-49AC-9AA2-0BB317C04F47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.EqualityInAArray", "HackerRank.EqualityInAArray\HackerRank.EqualityInAArray.csproj", "{BA45D70A-2BF8-45DA-BDAC-75F0062A9718}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{D8C58D3F-679F-4800-A328-39DA639A3DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8C58D3F-679F-4800-A328-39DA639A3DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8C58D3F-679F-4800-A328-39DA639A3DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA45D70A-2BF8-45DA-BDAC-75F0062A9718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA45D70A-2BF8-45DA-BDAC-75F0062A9718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA45D70A-2BF8-45DA-BDAC-75F0062A9718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA45D70A-2BF8-45DA-BDAC-75F0062A9718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{B3502BC7-9F90-42C6-BD7C-06A8393DEA1C} = {EF86ED0C-D6F5-49AC-9AA2-0BB317C04F47}
 		{00E4E878-317E-44E1-B1FB-C45882C10A6D} = {EF86ED0C-D6F5-49AC-9AA2-0BB317C04F47}
 		{D8C58D3F-679F-4800-A328-39DA639A3DF9} = {562F7C89-D042-4F3F-A2E6-C5605294E905}
+		{BA45D70A-2BF8-45DA-BDAC-75F0062A9718} = {EF86ED0C-D6F5-49AC-9AA2-0BB317C04F47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33416D38-FB7F-4688-B09A-3AF90633C759}

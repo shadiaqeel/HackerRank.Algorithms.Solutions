@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 
 namespace HackerRank.NonDivisibleSubset
@@ -41,7 +40,7 @@ namespace HackerRank.NonDivisibleSubset
             int size = 0;
             for (int i = 1; i <= k / 2; i++)
             {
-                 Console.WriteLine($"i = {i}");
+                Console.WriteLine($"i = {i}");
                 if (i * 2 == k)
                 {
                     //We can add only one integer which is Reminders = k/2 because if we add two or more numbers then their sum will be k
@@ -53,6 +52,33 @@ namespace HackerRank.NonDivisibleSubset
                 }
             }
             return reminders[0] != 0 ? size + 1 : size;
+        }
+
+    }
+
+
+    class Result2
+    {
+
+        /*
+        * Complete the 'nonDivisibleSubset' function below.
+        *
+        * The function is expected to return an INTEGER.
+        * The function accepts following parameters:
+        *  1. INTEGER k
+        *  2. INTEGER_ARRAY s
+        */
+
+        public static long nonDivisibleSubset(int k, List<int> s)
+        {
+            int[] mk = new int[k];
+            for (int i = 0; i < a.Length; i++) mk[a[i] % k]++;
+            long x = 0;
+            if (mk[0] > 0) x++;
+            for (int i = 1; i < (k + 1) / 2; i++)
+                x += Math.Max(mk[i], mk[k - i]);
+            if (k % 2 == 0 && mk[k / 2] > 0) x++;
+            return x;
         }
 
     }
@@ -80,6 +106,9 @@ namespace HackerRank.NonDivisibleSubset
 
             Console.WriteLine(result);
         }
+
+
+
     }
 
 }
