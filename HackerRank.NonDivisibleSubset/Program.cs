@@ -6,7 +6,7 @@ using System.Linq;
 namespace HackerRank.NonDivisibleSubset
 {
 
-    /* 
+    /* URL : https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
      * Given a set of distinct integers,
      * print the size of a maximal subset of  where the sum of any  numbers in  is not evenly divisible by .
      * Example
@@ -41,9 +41,10 @@ namespace HackerRank.NonDivisibleSubset
             int size = 0;
             for (int i = 1; i <= k / 2; i++)
             {
-                Console.WriteLine($"i = {i}");
+                 Console.WriteLine($"i = {i}");
                 if (i * 2 == k)
                 {
+                    //We can add only one integer which is Reminders = k/2 because if we add two or more numbers then their sum will be k
                     size++;
                 }
                 else
